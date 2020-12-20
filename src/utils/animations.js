@@ -127,7 +127,7 @@ export function stackAnimatedStyles (index, animatedValue, carouselProps, cardOf
     const translateProp = carouselProps.vertical ? 'translateY' : 'translateX';
 
     const card1Scale = 0.9;
-    const card2Scale = 0.8;
+    const card2Scale = 0.1;
 
     cardOffset = !cardOffset && cardOffset !== 0 ? 18 : cardOffset;
 
